@@ -75,6 +75,7 @@ vim.opt.scrolloff = 10
 --  See `:help vim.keymap.set()`
 
 vim.keymap.set('i', 'ii', '<Esc>')
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
